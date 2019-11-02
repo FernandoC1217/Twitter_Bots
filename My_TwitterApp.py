@@ -16,15 +16,15 @@ api = tweepy.API(auth)
 
 user = api.get_user("RainbowcolorXd")
 
- # Methods for Users: Get the user name, description, location and his/her last followers
-print("User details:")
-print(user.name)
-print(user.description)
-print(user.location)
-
-print("Last 20 Followers:")
-for follower in user.followers():
-    print(follower.name)
+#  # Methods for Users: Get the user name, description, location and his/her last followers
+# print("User details:")
+# print(user.name)
+# print(user.description)
+# print(user.location)
+#
+# print("Last 20 Followers:")
+# for follower in user.followers():
+#     print(follower.name)
 
 
 
